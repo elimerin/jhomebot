@@ -1,6 +1,7 @@
 # This is a simple echo bot using the decorator mechanism.
+# echo part is modified with #, it will send temperature and humidity.
 # It echoes any incoming text messages.
-#!/usr/bin/python3
+#!/usr/bin/python
 import telebot
 import Adafruit_DHT as dht
 import time
